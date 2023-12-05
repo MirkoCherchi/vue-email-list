@@ -19,7 +19,7 @@
 
         <div class="container">
             <h1>Vue Email List</h1>
-            <ul>
+            <ul v-show="emailList.length === 10">
                 <li class="li-class" v-for="(email) in emailList">{{ email }}</li>
             </ul>
 

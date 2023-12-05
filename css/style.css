@@ -20,8 +20,7 @@ h1 {
   background-color: #370617;
   text-align: center;
   width: 50%;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 80px auto;
   border-radius: 20px;
   padding: 20px;
 }
@@ -36,5 +35,5 @@ h1 {
   text-align: center;
   color: #fff;
   padding: 15px;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
