@@ -19,8 +19,8 @@
 
         <div class="container">
             <h1>Vue Email List</h1>
-            <ul class="list">
-                <li class="li-class">prova</li>
+            <ul>
+                <li class="li-class" v-for="(email) in emailList">{{ email }}</li>
             </ul>
 
         </div>
